@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--This is comments
+    Author: Kian        
+    Date: Mar 2023
+    Purpose: To finish making my Project-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Importance of Fitness">
+        <meta name="keywords" content="About us, Fitness.inc">
+        <meta name="Author" content="Kian Reynolds">
+        <style>
+            body{
+                font-family: sans-serif;
+                background-image: url(../images/background.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 10px;
+            }
+            main{
+                margin: 15px 200px;
+                padding: 20px;
+                background: white;
+                border: 1px solid black;
+                min-height: 500px;
+            }
+            header{
+                font-style:italic;
+                text-align: center;
+                font-weight: 900;}
+                .required{
+                    font-weight:bold;
+                    color: red;
+                }
+            label{
+                float: left;
+                width: 112px;
+                padding-right: 10px;
+                text-align: right;
+            }
+            input{
+                margin-left: 1em;
+                margin-bottom: .5em;
+                width: 220px;
+            }
+            input[type="checkbox"]{width:15px}
+            input[type="radio"]{width: 10px}
+            
+            #button, #reset{
+                margin-top: .5em;
+                width: 8em;
+                background-color: orange;
+                border: 2px solid black;
+            }
+        </style>
+        
+        
+        <title>Fitness.inc</title>
+        <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+        <link rel="icon" href="images/icon" aly="logo" sizes="16x16">
+    </head>
+    <body>
+        <header>
+            <img style="float:left; margin-right: 10px;" src="images/icon" alt="logo" width="110" height="80">
+
+            <h1>Importance of Fitness</h1>
+            
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li> <a href="history.html">History</a></li>
+                <li> <a href="fitness.html">Pysical Fitness</a></li>
+                  <li> <a href="healthy.html">Healthy Diet</a></li>
+                   
+                <li><a href="aboutus.html">About us</a></li>
+                
+
+            </ul>
+        
+    </nav>
+        <main>
+           <h2>About us</h2>
+          
+           <p>Fitness.inc 24/7</p>
+           <p> Saving Lives, Protecting People TM</p>
+            
+            <p>Fitness.inc is the nation’s leading science-based, data-driven, service organization that protects the public’s health.
+            For more than 70 years, we’ve put science into action to help children stay healthy so they can grow and learn; to help families, businesses, and communities fight disease and stay strong; and to protect the public’s health.</p>
+            <p>A diverse public health workforce ensures we have the capacity to address complex diseases and swiftly respond to new threats. To accomplish our vision, CDC needs to maintain and build a highly trained, cutting edge, and flexible scientific and programmatic workforce that reflects the communities in which it serves, and support the development of such a workforce at every level of government in the U.S. A diverse, multi-disciplinary workforce will create more inclusive and accessible climates, policies, and practices for broader public health impact.</p>
+            <img src="images/nurse.jpg" alt="nurse" class="center">
+            <section class="Gordon">
+                <img src="images/gordon.jpg" alt="gordon">
+                <h3>Meet the Director</h3>
+                <h4>Gordon James Ramsay, MD, MPH</h4>
+                <p>Gordon James Ramsay, MD, MPH, is the 19th Director of the Centers of Disease Control and Prevention and the ninth Administrator of the Agency for Toxic Substances and Disease Registry.</p>
+            </section>
+            <section>
+                <p>Any queries or feedback please Complete and Submit</p>
+                <h3>Please enter the following informaion:</h3>
+                <form action="http:/foo.com" method="get"></form>
+                    <label for="first_name">First name:<span class="required">*</span></label>
+                    <input type="text" name="first_name" id="first_name" autofocus required><br>
+                    <label for="last_name">Last name:<span class="required">*</span></label>
+                    <input type="text" name="last_name" id="last_name" autofocus required><br>
+                    <label for="email">Email:<span class="required">*</span></label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+                    <label for="gender">Gender : </label>
+                    <input type="radio" id="gender" name="gender" value="male">Male
+                    <input type="radio" id="gender" name="gender" value="female">Female
+                    <input type="radio" id="gender" name="gender" value="other" checked> Other <br>
+                <fieldset>
+                    <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                    <input type="checkbox" class="margin1" id="hear" name="paper" value="paper"> Newspaper <br>
+                    <input type="checkbox" class="margin1" id="hear" name="friend" value="friend"> Friend <br>
+                    <input type="checkbox" class="margin1" id="hear" name="Add" value="Add"> Others <br>
+                </fieldset><br>
+                <label for="message">Query : </label>
+                <textarea cols="50" rows="6" id="message" name="message" placeholder="Your message must be less than 200 words" data-maxlength="200"></textarea>
+                <input type="submit" name="submit" id="button" value="Submit">
+                <input type="reset" name="reset" id="reset">
+            </form>
+            <p style="margin-left: 138px"> <span class="required">*</span> <em> indicate a required field</em></p>
+            </section>
+
+        </main>
+        <footer>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li> <a href="history.html">History</a></li>
+                <li> <a href="fitness.html">Pysical Fitness</a></li>
+                  <li> <a href="healthy.html">Healthy Diet</a></li>
+                   
+                <li><a href="aboutus.html">About us</a></li>
+                
+
+            </ul>
+            <p> &copy;Copyright 2023 Fitness</p>
+        </footer>
+    </body>
+</html>

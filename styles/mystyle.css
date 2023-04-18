@@ -1,6 +1,7 @@
 nav{
     background-color: red;
     padding: 5px;
+    border-radius: 0px 0px 25px 25px;
 }
 nav ul{
     text-align: center;
@@ -23,20 +24,91 @@ nav ul li:hover{
     background-color: rgb(0, 204, 255);
 }
 header{
-    background-color: #b2b2b2;
-    padding: 10px;
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: black;
+    border: 1px solid blue;
+    border-radius: 0px 25px 0px 0px;
+    
+}
+footer ul li{
+list-style-type: none;
+color: white;
+padding: 15px;
+display: inline;
+}
+footer ul li a{
+    color:white;
+    text-decoration:aliceblue;
+    display:inline;
 }
 footer{
-    padding:0;
+    clear:both;
+    border: 1px solid orange;
+    padding: 0;
     margin:0;
-    position:fixed;
-    bottom:0px;
-    width: 100%;
-    background-color: black;
+    position: relative;
+    bottom: 0;
+    width:100%;
+    background-color: grey;
+    text-align: center;
 }
 footer p {
 
     text-align: center;
     color: white;
 
+}
+.video{
+    float: right;
+    width:49%;
+    border: 1px solid black;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
+section.video{
+    max-height: 350px;
+    overflow: auto;
+}
+h1{
+    color: blue;
+}
+table{
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+}
+th,td,tr{
+    border: 1px solid black;
+    text-align: left;
+}
+h1,h2{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.Content{
+    float:right;
+    width:49%;
+    border: 2px solid black;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+    margin: 10px;
+}
+.Gordon{
+    column-count: 2;
+    column-rule: 2px solid rgb(199, 32, 32);
+    column-gap: 50px;
+    padding: 2px;
+    text-align: justify;
 }
